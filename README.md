@@ -7,6 +7,10 @@ CSS 3D storefront preview.
 The storefront and booking form shown on the launch page are a visual preview;
 this frontend does not yet save or process real customer bookings.
 
+TezBooking is a project of Qode System, founded by Syed Ansar Ali. The site
+identifies this relationship in its visible FAQ and footer, structured data,
+social metadata, and `public/llms.txt`. No geographic service area is specified.
+
 ## Development
 
 ```sh
@@ -45,3 +49,9 @@ use:
 After deployment, point your domain to the host using the DNS instructions
 provided by that host and enable HTTPS there. Rebuild and redeploy `dist/` after
 future code changes.
+
+After deploying SEO changes, open Google Search Console for the verified
+`https://tezbooking.site/` property, inspect `https://tezbooking.site/`, and
+request indexing. Resubmit `https://tezbooking.site/sitemap.xml` if needed.
+Google controls when pages are indexed and may choose different result titles
+or descriptions; metadata cannot guarantee a particular search appearance.

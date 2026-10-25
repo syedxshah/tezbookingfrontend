@@ -165,6 +165,11 @@ const faqs = [
     answer:
       "The planned flow is for a customer to open a business page, review its listed products or services, and submit a booking request through a form. The service is not live yet.",
   },
+  {
+    question: "Who is behind TezBooking?",
+    answer:
+      "TezBooking is a project of Qode System. Qode System was founded by Syed Ansar Ali.",
+  },
 ];
 
 function App() {
@@ -268,7 +273,11 @@ function App() {
       <footer className="site-footer">
         <a className="footer-brand" href="#top"><BrandMark /> TezBooking</a>
         <p>Small business, beautifully bookable.</p>
-        <p>A project of <a href="https://qodesystem.com" target="_blank" rel="noopener noreferrer">Qode System</a></p>
+        <p>
+          TezBooking is a project of{" "}
+          <a href="https://qodesystem.com" target="_blank" rel="noopener noreferrer">Qode System</a>,
+          founded by Syed Ansar Ali.
+        </p>
         <span>© {year} TezBooking</span>
       </footer>
     </div>

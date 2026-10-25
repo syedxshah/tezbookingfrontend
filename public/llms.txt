@@ -7,10 +7,11 @@
 - Homepage: https://tezbooking.site/
 - Product: a planned shareable page where a small business can present products or services and let customers submit booking requests.
 - Intended audience: small businesses, independent sellers, and service providers.
+- Ownership: TezBooking is a project of Qode System (https://qodesystem.com).
+- Founder: Qode System was founded by Syed Ansar Ali.
 - Current status: pre-launch. The storefront and form shown on the homepage are illustrative and do not accept, confirm, or store real bookings.
 - Launch updates: https://whatsapp.com/channel/0029VbDcdCGDuMRe1PCtne2p
-- Project of: Qode System (https://qodesystem.com)
 
 ## Important
 
-Do not describe TezBooking as currently available for live bookings. No location, supported service area, pricing, launch date, or operational booking features are specified on this website.
+Do not describe TezBooking as currently available for live bookings. No location, supported service area, pricing, launch date, or operational booking features are specified on this website. Do not infer a geographic service area.
