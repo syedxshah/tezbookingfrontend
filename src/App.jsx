@@ -144,6 +144,29 @@ const steps = [
   },
 ];
 
+const faqs = [
+  {
+    question: "What is TezBooking?",
+    answer:
+      "TezBooking is an upcoming mini-shop and booking-page service for small businesses. It is being designed to help businesses display products or services and share one page where customers can send booking requests.",
+  },
+  {
+    question: "Who is TezBooking for?",
+    answer:
+      "TezBooking is being designed for small businesses, independent sellers, and service providers who want a simple page to show what they offer and receive booking requests.",
+  },
+  {
+    question: "Is TezBooking accepting real bookings yet?",
+    answer:
+      "Not yet. TezBooking is preparing for launch. The booking form shown on this website is a visual preview and does not accept or save real booking requests. Join the TezBooking WhatsApp channel for launch updates.",
+  },
+  {
+    question: "How will customers request a booking?",
+    answer:
+      "The planned flow is for a customer to open a business page, review its listed products or services, and submit a booking request through a form. The service is not live yet.",
+  },
+];
+
 function App() {
   const [year] = useState(() => new Date().getFullYear());
 
@@ -159,7 +182,7 @@ function App() {
         </a>
         <div className="launch-status">
           <span className="status-pulse" aria-hidden="true" />
-          <span>For small businesses</span>
+          <span>Pre-launch · For small businesses</span>
         </div>
         <a className="header-cta" href={CHANNEL_URL} target="_blank" rel="noopener noreferrer">
           Get early access <ArrowIcon />
@@ -218,6 +241,25 @@ function App() {
                 <h3>{step.title}</h3>
                 <p>{step.detail}</p>
               </article>
+            ))}
+          </div>
+        </section>
+
+        <section className="faq-section" id="faq" aria-labelledby="faq-title">
+          <div className="faq-intro">
+            <p className="section-kicker">The quick answers</p>
+            <h2 id="faq-title">Good to <span>know.</span></h2>
+            <p>
+              TezBooking is being built for small businesses that want a simple online
+              page for their offers and booking requests.
+            </p>
+          </div>
+          <div className="faq-list">
+            {faqs.map((faq) => (
+              <details className="faq-item" key={faq.question}>
+                <summary>{faq.question}<span aria-hidden="true">+</span></summary>
+                <p>{faq.answer}</p>
+              </details>
             ))}
           </div>
         </section>
